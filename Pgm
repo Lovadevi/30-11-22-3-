@@ -1,0 +1,18 @@
+fan=int(input("no.of fans:"))
+light=int(input("no.of lights:"))
+fridge=int(input("no.of fridge:"))
+tv=int(input("no.of tv:"))
+fcost=120
+lcost=100
+frcost=800
+tcost=500
+cost=3
+ft=int(input("fan time:"))
+lt=int(input("light time:"))
+frt=int(input("fridge time:"))
+tvt=int(input("tv time:"))
+unit=(fan*ft*fcost)+(light*lt*lcost)+(fridge*
+ft*fcost)+(tv*tvt*tcost)
+bill=unit*cost
+print("units:",unit)
+print("electric bill is:",bill)
